@@ -1,0 +1,387 @@
+/**********/
+/* RESET */
+/*********/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    width: inherit;
+    height: 50px;
+    background-color: aqua;
+    font-family: verdana;
+    font-size: 1.3em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+h3{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.1em;
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+    line-height: 1.1;
+}
+
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+}
+
+#containerMenu{
+    width: inherit;
+    height: 50px;
+    background-color: orange;
+    z-index: 999;
+    position: fixed;
+   
+}
+/***************/
+/*Área da logo*/
+/***************/
+
+#logo{
+    width: 150px;
+    height: inherit;
+    background-color: saddlebrown;
+    float: left;
+}
+/***************/
+/*Área do Menu*/
+/***************/
+#menu{
+    width: 1000px;
+    height: inherit;
+    background-color: bisque;
+    float: left;
+    
+    
+}
+
+#listaMenu{
+    width: inherit;
+    height: inherit;
+    margin-left: 75px;
+    
+}
+
+.itensMenu{
+    width: 160px;
+    height: inherit;
+    color: #000000;
+    font-family: verdana;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    padding-top: 13px;
+    margin-left:15px;;
+    background-color: chartreuse;
+
+}
+
+.itensMenu:hover{
+    background-color: aquamarine;
+    transition: 1s;
+    cursor: pointer;
+}
+/**********/
+/*SUB MENU*/
+/**********/
+
+#subMenu{
+    width: inherit;
+    height: inherit;
+
+    display: none;
+    margin-top: 15px;
+    
+}
+
+#subMenuItem2:hover{
+    background-color: aquamarine;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#subMenuItem:hover{
+    background-color: aquamarine;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#subMenuItem{
+    width: 200px;
+    height: 60px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: burlywood;
+    
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#subMenuItem2{
+    width: 200px;
+    height: 50px;
+    color: #000000;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    background-color: burlywood;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.itensMenu:hover > #subMenu{
+    display: block;
+}
+
+/**************/
+/*Espaço menu*/
+/************/
+
+#espacoMenu{
+    width: inherit;
+    height: 50px;
+}
+
+/***********************/
+/*Área das rede Sociais*/
+/***********************/
+
+#redeSociais{
+    width: 150px;
+    height: inherit;
+    background-color: blue;
+    float: left;
+}
+
+/***********************/
+/*Área processo de Seleção*/
+/***********************/
+
+#containerNossoPreoceSele{
+    width: inherit;
+    height: 400px;
+    background-color: darkmagenta;
+}
+
+#textoProcessoSele{
+    width: 800px;
+    height: 230px;
+   background-color: darkseagreen;
+    
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**************************/
+/*Área Nossos Professoreso*/
+/**************************/
+
+#containerNossosProf {
+    width: inherit;
+    height: 525px;
+background-color: black;
+}
+
+#galeriaNossosProf{
+    width: 990px;
+    height: 400px;
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.perfiuProf{
+    width: 290px;
+    height: 380px;
+    background-color: forestgreen;
+    
+    margin-left: 160px;
+    margin-top: 20px;
+    
+    float: left;
+}
+
+.imagemPerfiu{
+    width: inherit;
+    height: 290px;
+    background-color: aqua;
+    
+    border-radius: 300px;
+}
+
+.descricaoPerfiu{
+    font-family: verdana;
+    font-size: 0.8em;
+    
+    width: inherit;
+    height: 60px;
+    background-color: burlywood;
+
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#verMais{
+    font-family: verdana;
+    font-size: 1.5em;
+    
+    width: inherit;
+    height: 50px;
+    background-color: brown;
+    
+    padding-left: 625px;
+    padding-top: 10px;
+}
+
+#teste{
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+    position: absolute;
+    z-index: 999;
+    
+}
+
+
+
+/****************************/
+/* Configurações do Rodapé */
+/***************************/
+ 
+#CaixaPrincipalRodape{
+    width:inherit;
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+ 
+#CaixaSecundariaRodape{
+    width:inherit;
+    height:inherit;
+    background-color: blue;
+}
+ 
+.CaixasRodape{
+    width: 431px;
+    height:inherit;
+    background-color: blue; 
+    float: right;
+    margin-bottom: 10px;
+}
+ 
+.linha{
+     height: 200px;
+     border-right: 3px solid black;
+     float: right;
+     margin-top: 50px;
+
+}
+ 
+/****************************/
+/****** Redes Sociais ******/
+/***************************/
+ 
+#RedesSociais{
+    width:160px;
+    height:25px;
+    background-color: chartreuse;
+    margin-top: 80px;
+}
+ 
+.FotoRedeSocial{
+    width:30px;
+    height:30px;
+    background-color: chartreuse;
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+ 
+#centralizacao{
+    margin-left: 125px;
+}
+ 
+/****************************/
+/******** Contatos **********/
+/****************************/
+.Contatos{
+    width:150px;
+    height: 25px;
+    background-color:chartreuse;
+    margin-top: 28px;
+    margin-left: 125px;
+}
+ 
+/*******************************/
+/* Nome, logo, e alguns textos */
+/******************************/
+ 
+#NomeRodape{
+    width: 200px;
+    height: 25px;
+    background-color: chartreuse;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+ 
+#textoComico{
+    width: 300px;
+    height: 20px;
+    background-color: chartreuse;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+ 
+#LogoRodape{
+width: 320px;
+height: 120px;
+background-color: chartreuse;
+margin-top: 30px;
+margin-left: 55px;
+}
+ 
+#Reservado{
+    width: 320px;
+    height: 20px;
+    background-color: chartreuse;
+    margin-top: 35px;
+    margin-left: 55px;
+}

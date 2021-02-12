@@ -1,0 +1,96 @@
+.titulo{
+/* Troca a cor da letra (hexadecimal, inglês ou RGB) */
+    color: red;
+/* Torca o tipo da letra */
+    font: arial;
+/* Permite trocar o tipo da letra, com opções. Caso uma não funciona a proxima é adtada */
+    font-family: cursive, arial, verdana, "times new roman";
+/* Toca o tamanho da letra (unidades de medida pt, px, em)*/
+    font size: 10em;
+/* Permite fazer alinhamento do texto (left, center, right e justify) */
+    text-align: center;
+/* Negrito */
+    font-weight: bold;
+/* Italico */
+    font-style: italic;
+/* underline = sublinhado
+    overline = sublinhado superior
+    line-through = risca a palavra
+*/
+    text-decoration: underline;
+/* Retira o sublinhado do link */    
+/*    text-decoration: none; */
+    
+/* Aplica formatação MAIUSCULO e minusculo
+    upercase = maiusculo
+    lowercase = minusculo
+    capitalize = apenas a primeiraa letra de cada palavra
+*/
+    text-transform: uppercase;
+/* aplica espaçamentos entr as letras */
+    letter-spacing: 5px;
+/* Aplica espaçamento entre as palavras */
+    word-spacing: 18px;
+/* Permite colocar sombreamento no texto */ 
+    text-shadow: 10px 10px 30px blue;
+}
+
+.texto {
+    font-family: cursive;
+    font-size: 1.2em;
+/* aplica espaços entre as linhas do texto */
+    line-height: 1.5;
+}
+.destaque{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Exemplos de pseudo ELento para formatar textos*/
+
+/* Aplica a formatação apenas na primeira letra de cada palavra */
+/*p::first-letter, p::first-line { - Exemplo de como compartilhar a mesma formatação com varios elementps */
+
+p::first-letter{
+    font-size: 1.7em;
+    color: darkorchid;
+    font-family: arial;
+}
+/* Aplica formatação na primeira linha de cada paragrafo*/
+p::first-line{
+    color: chocolate;
+} 
+
+/* Aplica formatação ao selecionar um conteudo escrito no paragrafo */
+p::selection{
+    color: chartreuse;
+    background-color: #000000;
+}
+
+/*bordas*/
+
+.caixaTitulo, .caixaTexto {
+    width: 250px;
+    height: 40px;
+    
+/* Tipos de borda 
+    solid - borada solida
+    dashed - borda com traços
+    dotted - borda com pontos
+    double - borda dupla
+    grove - borda efeito 3D
+    ridge - borda com efeito 3D
+    inset - borda com efeito 3D
+    outset - borda com efeito 3D
+*/
+    border: solid 2px #000000;
+    text-align: center;
+    /* Permite colocar cor de fundo no elemento */
+    background color: bisque;
+}
+
+.caixaTexto{
+    width: auto;
+    height: auto;
+}

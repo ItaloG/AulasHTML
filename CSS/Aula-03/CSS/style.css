@@ -1,0 +1,88 @@
+#listaFrutas {
+    /*Definir Lagura e Altura da lista*/
+    width: 200px;
+    height: 160px;
+    background-color: chocolate;
+    
+    /*Permite alinha quaquer elemento no centro da lista*/
+    margin-right: auto;
+    margin-left: auto;
+    /*padding - permite manipular os espaços internos de um elemento 
+    
+    padding - ajusta o valor para os 4 lados do elemento
+    
+    padding-left - ajusta o valor do lado esquerdo
+    padding-right - ajusta o valor do lado direto
+    padding-top - ajusta o valor do lado topo
+    padding-bottom - ajusta o valor do lado inferior
+    */
+    padding-left: 0px;
+}
+
+
+
+.itens {
+    /*Definir Largura e ALtura dos itens da Lista*/
+    width: 90px;
+    height: 25px;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 0.9em;
+    background-color: #000000;
+    
+    /*Permite alterar o tipo de marcador*/
+    list-style: none;
+    
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid 1px #ffffff;
+}
+
+.destaque {
+    color: red;
+}
+
+#listaMaterias{
+    widows: 1px;
+    height: 40px;
+    background-color: blueviolet;
+    
+}
+
+#listaMaterias li {
+    width: 170px;
+    height: 35px;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 0px;
+    list-style: url(../icones/iconeNovo.png);
+    /*display: inline;*/ /*permite deixar a lista na horizontal*/
+    float: left; /*Permite deixar a lista no horizontal (organiza melhor os itens)*/
+}
+
+.itens:hover /*Muda o efeito quando passar o cursor em cima*/{
+    color: aqua;
+    background-color: brown;
+}
+
+#listaMaterias li:hover {
+    color: blueviolet;
+    background-color: #ffffff;
+}
+
+.botao {
+    width: 100px;
+    height: 25px;
+    background-color: chartreuse;
+    color: #000000;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 5px;
+    border: solid 1px #000000;
+    
+}
+
+.botao:hover {
+    background-color: #000000;
+    color: chartreuse;
+}

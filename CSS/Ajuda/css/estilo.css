@@ -1,0 +1,44 @@
+#CPrincipal{
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: solid 1px #000000;
+}
+
+#CEsquerda{
+     width: 498px;
+    height: 1000px;
+    float: left;
+    background-color: aqua;
+    
+    border: solid px #000000;
+}
+
+#CDireita{
+    width: 490px;
+    height: 1000px;
+    float: right;
+    background-color: darkblue;
+    
+    border: solid px #000000;
+}
+
+.sup{
+    width: 498px;
+    height: 498px;
+    float: right;
+    background-color: darkgreen;
+    
+    border: solid px #000000;
+}
+
+.inf{
+     width: 498px;
+    height: 498px;
+    float: left;
+    background-color: chocolate;
+    
+    border: solid px #000000;
+}

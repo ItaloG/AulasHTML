@@ -1,0 +1,461 @@
+/*Reset CSS*/
+
+/* (* significa seletor universal)*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /*Trava o elemento para que nõa sofra mudanças de tamanho*/
+    box-sizing: border-box;
+}
+
+/*CLASSES DE PADRONIZAÇÃO(GLOBAIS)*/
+
+
+/*Classe para padronização do tamanho do conteudo de cada seção*/
+.conteudo{
+    width: 1300px;
+    /*Permite herdar o valor do elemento pai*/
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1,h2{
+    width: inherit;
+    height: 50px;
+    background-color: aqua;
+    font-family: verdana;
+    font-size: 1.3em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    height: 40px;
+    font-size: 1.1em;
+    color: brown;
+    
+}
+
+P{
+    width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que p elemento p aumente de forma automatica*/
+    height: auto;
+    /*Ajusta p estourp da caixa para não haver caixar de rolagem*/
+    overflow: hidden;
+    
+    font-family: verdana;
+    font-size: 1em;
+    line-height: 1.1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Menu */
+
+#espacoMenu{
+    width: 5%;
+    height: 50px;
+}
+
+#containerMenu{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+    z-index: 999;
+}
+
+#logo{
+    width: 100px;
+    height: inherit;
+    background-color: bisque;
+    float: left;
+}
+
+#menu{
+    width: 1000px;
+    height: inherit;
+    float: left;
+}
+
+#redesSociais{
+    width: 180px;
+    height: inherit;
+    float: right;
+}
+
+#listMenu{
+    width: inherit;
+    height: inherit;
+}
+
+.menuItem{
+    width: 180px;
+    height: inherit;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+
+}
+
+.menuItem:hover{
+    background-color: orange;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sociaisItem{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: darkgray;
+    margin-right: 10px;
+}
+
+
+/*Seção do Slogan e Imagem*/
+
+#containerSlogan{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagens/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    padding-top: 130px;
+}
+
+#slogan{
+    width: 600px;
+    height: 200px;
+    background-color: RGBA(0,0,0,0.7);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+
+}
+
+#slogan p{
+    font-family: cursive;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2;
+    padding: 0px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+/*Seção da Empresa*/
+
+#containerEmpresa{
+    width: 100%;
+    height: 500px;
+    background-color: #f2e48a;
+}
+
+#dadosEmpresa{
+    width: inherit; /*pderia ser 100%*/
+    height: 200px;
+    background-color: coral;
+}
+
+#historicoEmpresa{
+    width: inherit; /*pderia ser 100%*/
+    height: 200px;
+    background-color: crimson;
+}
+
+#imagemEmpresa{
+    width: 300px;
+    height: inherit;
+    background-color: beige;
+    float: left;
+    margin-right: 20px;
+}
+
+#conteudoEmpresa{
+    width: 950px;
+    height: inherit;
+    background-color: darkkhaki;
+    float: left;
+}
+
+.textoConteudoEmpresa{
+    width: inherit;
+    height: 48%;
+    background-color: brown;
+    margin-bottom: 5px;
+}
+
+#textoComplConteudoEmpresa{
+    width: 500px;
+    height: 100%;
+    background-color: aquamarine;
+    float: left;
+    margin-right: 20px;
+}
+
+.imagemComplEmpresa{
+    width: 150px;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    margin-right: 20px;
+}
+
+#galeriaHistorico,
+#conteudoHistorico{
+    width: 600px;
+    height: inherit;
+    background-color: burlywood;
+    float: left;
+    margin-right: 50px;
+}
+
+#galeriaHistorico{
+    padding-top: 20px;
+}
+
+.imagemGaleriaHistorico{
+    width: 150px;
+    height: 150px;
+    background-color: azure;
+    float: left;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+
+.textoConteudoHistorico{
+    width: inherit;
+    height: 75px;
+    background-color: coral;
+    margin-bottom: 5px;
+    
+}
+
+#iconeHistorico{
+    width: 80px;
+    height: inherit;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 20px;
+}
+
+#textoHistorico{
+    width: 500px;
+    height: inherit;
+    background-color: cadetblue;
+    float: left;
+}
+
+/* Seção de Serviços*/
+
+#containerServicos{
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+}
+
+.conteudoServicos{
+    width: 600px;
+    height: 450px;
+
+    margin-right: 50px;
+    float: left;
+}
+
+#textoSevicos{
+    width: inherit;
+    height: 170px;
+    background-color: coral;
+}
+
+#galeriaServicos{
+    width: inherit;
+    height: 150px;
+    background-color: aqua;
+}
+
+.imagemGaleriaServicos{
+    width: 140px;
+    height: 150px;
+    background-color: darkslategray;
+    float: left;
+    margin-right: 10px;
+}
+
+#detalhesServicos{
+    width: inherit;
+    height: 300px;
+    background-color: chocolate;
+    margin-bottom: 10px;
+}
+
+#textoDetalhesServicos{
+    width: inherit;
+    height: 100px;
+    background-color: coral;
+}
+
+#textoApresenteServicos{
+    width: 350px;
+    height: inherit;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 10px;
+}
+
+#imagemDetalhesServicos{
+    width: 240px;
+    height: inherit;
+    background-color: cadetblue;
+    float: left;
+}
+
+/*Seção Produtos*/
+
+#containerProdutos{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagens/tecnologia%20da%20informa%C3%A7%C3%A3o%20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cardProdutos{
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 50px;
+    margin-left: 70px;
+    box-shadow: 10px 10px 10px #61065d;
+    
+}
+
+#containerProdutos h1{
+    margin-bottom: 50px;
+    background-color: RGBA(255, 255, 255, 0.5)
+}
+
+.tituloProduto{
+    width: inherit;
+    height: 60px;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.imagemProduto{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.descricaoProduto{
+    width: inherit;
+    height: 150px;
+    background-color: cadetblue;
+}
+
+.tituloProduto h2{
+    text-align: center;
+}
+.descricaoProduto p{
+    text-align: center;
+}
+
+/*Seção de Contatos*/
+
+#containerContatos{
+    width: 100%;
+    height: 450px;
+    background-color: darkkhaki;
+}
+
+#mapaContato{
+    width: 350px;
+    height: 380px;
+    background-color: azure;
+    float: left;
+    margin-right: 20px;
+}
+
+#enderecoContato{
+    width: 460px;
+    height: 380px;
+    background-color: bisque;
+    float: left;
+    margin-right: 20px;
+}
+
+#fotoFilialContato{
+    width: 180px;
+    height: 380px;
+    background-color: azure;
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+#enderecoFilialContato{
+    width: 250px;
+    height: 380px;
+    background-color: bisque;
+    float: left;
+}
+
+.imagemFilial{
+    width: 160px;
+    height: 160px;
+    background-color: aqua;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+/*Seção do rodapé*/
+
+#rodape{
+    width:100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+#textoRodape{
+    width: 700px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textoRodape p{
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,0 +1,77 @@
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#caixaMenu{
+    width: 150px;
+    height: 300px;
+    background-color: #000000;
+}
+
+#Menu{
+    width: 150px;
+    height: 300px;
+    
+}
+
+.menuItem{
+    width: 150px;
+    height: 35px;
+    font-family: verdana;
+    list-style: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menuItem:hover{
+    background-color: chartreuse;
+    color: #000000;
+    
+    /*Permite alterar o tipo de cursor so mause*/
+    cursor: pointer;
+    
+    /*Atribui um delay de alguns segundos na mudança do elemento*/
+    transition: 1s;
+}
+
+.subMenu{
+    width: 150px;
+    height: 300px;
+    background-color: chartreuse;
+    /*Fazenod alinhamento da lista para ficar ao lado do menu*/
+    margin-left: 150px;
+    margin-top: -38px;
+    
+    /*Permite ocultar um elemento*/
+    display: none;
+}
+
+.subMenuItem{
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 1.2em;
+    text-align: center;
+    list-style: none;
+    color: #000000;
+    
+}
+
+
+.subMenuItem:hover{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*Permite CIONAR O ELEMENTO SUBMENU AO PASSAR O MAUSE SORE O MENUITEM*/
+.menuItem:hover > .subMenu{
+    /*Permite vizualizar o elemento novamente*/
+    display: block;
+}
